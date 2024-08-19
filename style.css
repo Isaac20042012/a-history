@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  font-size: 62.5%;
+  font-family: "JetBrains Mono", monospace, sans-serif;
+}
+
+body {
+  font-size: 1.6rem;
+  background-color: bisque;
+  height: 100vh;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  gap: 20rem;
+  padding-top: 2rem;
+}
+
+a {
+  text-decoration: none;
+  color: crimson;
+  font-weight: 700;
+  transition: all 0.3s ease-out;
+}
+
+a:hover {
+  color: grey;
+}
+
+.top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+h1 {
+  color: crimson;
+  font-size: 6.4rem;
+}
+
+#porque,
+#depoimentos {
+  background-color: white;
+  padding: 10rem 30rem;
+}
+
+h2 {
+  color: crimson;
+  font-size: 5.6rem;
+  margin-bottom: 5rem;
+}
+
+#historia {
+  padding: 10rem 30rem;
+}
+
+#depoimentos p {
+  max-width: 70rem;
+  border: 2px solid black;
+  padding: 2rem;
+  border-radius: 2rem;
+  margin-bottom: 10rem;
+}
+
+.Breno,
+.Emanuel {
+  display: flex;
+  justify-content: end;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  gap: 10rem;
+  padding: 10rem;
+}
+
+.apoio {
+  border-right: 2px solid black;
+  padding-right: 10rem;
+}
+
+.apoio p {
+  margin-bottom: 1rem;
+}
+
+ul {
+  list-style: none;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h4 {
+  color: crimson;
+}
