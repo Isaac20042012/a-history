@@ -8,6 +8,7 @@
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 :root {
@@ -59,9 +60,15 @@ h1 {
 }
 
 #porque,
+#historia,
+#depoimentos {
+  width: 100vw;
+  padding: 10rem 30rem;
+}
+
+#porque,
 #depoimentos {
   background-color: white;
-  padding: 10rem 30rem;
 }
 
 h2 {
@@ -116,4 +123,36 @@ ul {
 
 h4 {
   color: crimson;
+}
+
+@media screen and (max-width: 758px) {
+  :root {
+    font-size: 12px;
+  }
+
+  h1,
+  h2 {
+    font-size: 2.8rem;
+  }
+
+  header ul {
+    gap: 4rem;
+    font-size: 1.2rem;
+  }
+
+  #porque,
+  #historia,
+  #depoimentos {
+    width: 100vw;
+    padding: 5rem 8rem;
+  }
+
+  #porque p,
+  #historia p {
+    font-size: 1.6rem;
+  }
+
+  #depoimentos p {
+    font-size: 1.6rem;
+  }
 }
