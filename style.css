@@ -155,4 +155,12 @@ h4 {
   #depoimentos p {
     font-size: 1.6rem;
   }
+
+  footer {
+    gap: 3rem;
+  }
+
+  footer .apoio {
+    padding: 3rem;
+  }
 }
