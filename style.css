@@ -63,7 +63,7 @@ h1 {
 #historia,
 #depoimentos {
   width: 100vw;
-  padding: 10rem 30rem;
+  padding: 5rem 15rem;
 }
 
 #porque,
@@ -78,7 +78,7 @@ h2 {
 }
 
 #historia {
-  padding: 10rem 30rem;
+  /* padding: 10rem 30rem; */
 }
 
 #depoimentos p {
@@ -130,6 +130,10 @@ h4 {
     font-size: 12px;
   }
 
+  html {
+    overflow-x: hidden;
+  }
+
   h1,
   h2 {
     font-size: 2.8rem;
@@ -145,6 +149,9 @@ h4 {
   #depoimentos {
     width: 100vw;
     padding: 5rem 8rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
   }
 
   #porque p,
@@ -162,5 +169,13 @@ h4 {
 
   footer .apoio {
     padding: 3rem;
+  }
+}
+
+@media (min-width: 1400px) {
+  #porque,
+  #historia,
+  #depoimentos {
+    padding: 10rem 30rem;
   }
 }
