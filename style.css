@@ -16,6 +16,16 @@ html {
   font-family: "JetBrains Mono", monospace, sans-serif;
 }
 
+::-webkit-scrollbar {
+  width: 10px;
+  background-color: bisque;
+  /* border-left: 2px solid black; */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: crimson;
+}
+
 body {
   font-size: 1.6rem;
   background-color: bisque;
@@ -75,10 +85,6 @@ h2 {
   color: crimson;
   font-size: 5.6rem;
   margin-bottom: 5rem;
-}
-
-#historia {
-  /* padding: 10rem 30rem; */
 }
 
 #depoimentos p {
@@ -148,7 +154,7 @@ h4 {
   #historia,
   #depoimentos {
     width: 100vw;
-    padding: 5rem 8rem;
+    padding: 2rem 3rem;
     display: flex;
     align-items: center;
     flex-direction: column;
